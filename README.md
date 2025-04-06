@@ -124,6 +124,7 @@ const { data } = await api_client.post('eliminar/' + id);
 ```bash
 #Clona el repositorio
 git clone https://github.com/cristhiancustodio/proyectoaws.git
+cd proyectoaws/
 #Instala los paquetes npm
 npm install
 #Inicia el proyecto
@@ -139,4 +140,4 @@ Si tu navegador bloquea las peticiones a tu API local, asegúrate de configurar 
 
 # Usar AWS Amplify para probar tu proyecto
 Si deseas que otros prueben tu proyecto, puedes desplegarlo en AWS Amplify conectándolo a tu repositorio de GitHub.
-Asegúrate de proteger tu API. Sin autenticación o limitación de uso, otros usuarios pueden hacer múltiples solicitudes POST o subir grandes volúmenes de archivos, lo aumentaria tus costos en AWS (principalmente en S3 y API Gateway).
+Asegúrate de proteger tu API. Sin autenticación o limitación de uso, otros usuarios pueden hacer múltiples solicitudes POST o subir grandes volúmenes de archivos, esto aumentaria tus costos en AWS (principalmente en S3 y API Gateway).
